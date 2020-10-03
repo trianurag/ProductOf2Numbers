@@ -1,16 +1,14 @@
 # ProductOf2Numbers
 Developed by Anurag Tripathi
 
-#include<iostream.h>
-#include<conio.h>
+#include<iostream>
+using namespace std;
 int main()
 {
- clrscr();
  float a,b,r;
  cout<<"\nEnter two no.:";
  cin>>a>>b;
  r=a*b;
- cout<<"\nProduct: "<<r;
- getch();
+ cout<<"\nProduct of these numbers is: "<<r;
  return 0;
 } 
